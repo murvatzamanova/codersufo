@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Slackside+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.baslqsekil{
+    margin-top: 20px;
+    width: 70px;
+    height: 80px;
+    margin-right: 50px;
+    position: relative;
+    left: 120px;
+    bottom: 0px;
+    box-shadow:8px 6px 4px rgba(9, 76, 200, 0.6) ;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: aliceblue;
+    align-items: center;
+    height: 10vh;
+    font-family: "Slackside One", cursive;
+    font-size: 30px;
+}
+.navbar:hover.underline{
+width: 100%;
+color: blue;
+}
+a{
+    color: inherit;
+}
+ul li a{
+    color: #d3cec6;
+gap: 100px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+    line-height: 40px;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(34, 10, 219, 0);
+        position: relative;
+        overflow: hidden;
+    }
+
+
+.fas fa-bars{
+    color: red;
+}
+body{
+background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1656608138197-2aea23cc3564?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-size: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center; 
+}
+.ufo{
+    font-family: "Slackside One", cursive;
+    color: azure;
+    position: relative;
+    font-size: 100px;
+    left: 140px;
+    bottom: 5px;
+    display: inline-block;
+    transition:1s ;
+}
+.ufo:hover{
+    font-family: "Slackside One", cursive;
+    color: azure;
+    position: relative;
+    font-size: 100px;
+    left: 140px;
+    bottom: 5px;
+    text-shadow: 8px 6px 4px rgba(9, 76, 200, 0.6);
+    
+}
+.ufo2{
+    font-family: "Slackside One", cursive;     
+    color: azure;
+    position: relative;
+    bottom: 4px;
+    font-size: 30px;
+    left: 140px;
+    text-align: left;
+    width: 45%;
+}
+.button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    left: 150px;
+    bottom: 0.3px
+}
+.button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    left: 150px;
+    bottom: 0.3px
+
+}
+.boxlar{
+    border: none;
+    width: 90px;
+    height: 120px;
+    color: azure;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    position: relative;
+    left: 1000px;
+    bottom: 450px;
+
+}
+.box1{
+    width: 200px;
+    height: 250px;
+    background-image: url('box1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.25) 4px 4px 4px 4px , rgba(255, 254, 254, 0.22) 0px 10px 10px;
+}
+.box1:hover{
+    box-shadow: 0 20px 30px rgba(224, 101, 101, 0.3);
+    position: relative;
+bottom: 30px;
+transition-duration: 0.5s;
+}
+.box2:hover{
+    box-shadow: 0 20px 30px rgba(224, 101, 101, 0.3);
+    position: relative;
+    bottom: 30px;
+transition-duration: 0.5s;}
+.box3:hover{
+    box-shadow: 0 20px 30px rgba(224, 101, 101, 0.3);
+    position: relative;
+    bottom: 30px;
+    transition-duration: 0.5s;}
+.box4:hover{
+    box-shadow: 0 20px 30px rgba(224, 101, 101, 0.3);
+position: relative;
+bottom: 30px;
+transition-duration: 0.5s;}
+.ufobaslq{
+    font-family: "Slackside One", cursive;     
+    color: azure;
+    position: relative;
+    top: 60px;
+    text-align: left;
+    font-size: 30px;
+}
+.lorem{
+    font-family: "Poppins", sans-serif;
+    color: azure;
+    text-align: left;
+    position: relative;
+    top: 68px;
+    font-size: 12px;
+    text-decoration: double;
+}
+.box2{
+    width: 200px;
+    height: 250px;
+    background-image: url('box2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.25) 4px 4px 4px 4px , rgba(255, 254, 254, 0.22) 0px 10px 10px;}
+.box3{
+    width: 200px;
+    height: 250px;
+    background-image: url('box3.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.25) 4px 4px 4px 4px , rgba(255, 254, 254, 0.22) 0px 10px 10px;} 
+.box4{
+    width: 200px;
+    height: 250px;
+    background-image: url('box4.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    border-radius: 20px; 
+    box-shadow: rgba(255, 255, 255, 0.25) 4px 4px 4px 4px , rgba(255, 254, 254, 0.22) 0px 10px 10px;}
+
+
+
